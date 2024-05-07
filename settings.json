@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "SynthWave '84",
+    "synthwave84.disableGlow": false,
+    "synthwave84.brightness": 1,
+    "window.zoomLevel": 2,
+    "[python]": { // python section  
+        "editor.rulers": [
+            88
+        ],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    // Local interpreter can be the default python 
+    // or if you are using poetry "$(poetry run which python)"
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.languageServer": "Pylance",
+    "flake8.args": [
+        "--max-line-length=88",
+        "--config=.flake8"
+    ],
+    "mypy.enabled": true,
+    "mypy.extraArguments": [
+        "--install-types",
+        "--ignore-missing-imports"
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "python.analysis.addImport.exactMatchOnly": true,
+    "errorLens.gutterIconsEnabled": true,
+    "mypy.runUsingActiveInterpreter": true,
+    "editor.inlineSuggest.suppressSuggestions": true
+}
