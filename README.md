@@ -12,3 +12,8 @@ Contient exclusivement mon fichier settings.json pour vscode.
 * usernamehw.errorlens
 * mechatroner.rainbow-csv
 * oderwat.indent-rainbow
+* ms-azuretools.vscode-docker
+* vscode-icons-team.vscode-icons
+* pnp.polacode
+* streetsidesoftware.code-spell-checker
+* kamikillerto.vscode-colorize
